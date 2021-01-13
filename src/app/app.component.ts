@@ -11,6 +11,8 @@ export class AppComponent {
   title = 'platzi-store';
   items = ['Juan', 'Carlos', 'DelRioe'];
 
+  power = 10;
+
   products: Product[] = [
     {
       id: '1',
