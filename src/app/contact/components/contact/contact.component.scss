@@ -1,0 +1,13 @@
+.container {
+  background-color: lightgrey;
+  margin: 30px;
+}
+.social {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px;
+}
+
+.social i {
+  margin-right: 10px;
+}
