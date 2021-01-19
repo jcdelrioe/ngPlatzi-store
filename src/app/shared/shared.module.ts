@@ -8,6 +8,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { ExponentialPipe } from './pipes/exponential/exponential.pipe';
 import { HighlightDirective } from './directives/highlight/highlight.directive';
 import {MaterialModule} from './../material/material.module';
+import { CartComponent } from './components/cart/cart.component';
 
 
 @NgModule({
@@ -16,6 +17,7 @@ import {MaterialModule} from './../material/material.module';
     FooterComponent,
     ExponentialPipe,
     HighlightDirective,
+    CartComponent,
   ],
   exports: [
     HeaderComponent,
@@ -26,7 +28,7 @@ import {MaterialModule} from './../material/material.module';
   imports: [
     CommonModule,
     RouterModule,
-    MaterialModule
+    MaterialModule,
   ]
 })
 export class SharedModule { }
