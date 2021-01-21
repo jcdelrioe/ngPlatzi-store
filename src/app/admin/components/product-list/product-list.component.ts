@@ -8,7 +8,7 @@ import {ProductsService} from '../../../core/services/products/products.service'
 })
 export class ProductListComponent implements OnInit {
 
-  products = [];
+  products: any[] = [];
 
   displayedColumns: string[] = ['id', 'title', 'price', 'actions'];
 

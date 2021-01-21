@@ -1,7 +1,6 @@
-@import '~@angular/material/theming';
+@import "~@angular/material/theming";
 
-$primary: mat-palette($mat-pink);
-
+$primary: mat-palette($mat-indigo);
 
 footer {
   padding: 50px 0px;
@@ -11,7 +10,7 @@ footer {
     h3 {
       color: white;
     }
-    input{
+    input {
       color: white;
     }
     ul {

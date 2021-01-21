@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "ngstore-62b03": {
+      "hosting": {
+        "platzi-store": [
+          "ngstore-62b03"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "ngstore-62b03"
+  }
+}
